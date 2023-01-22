@@ -22,4 +22,11 @@ public class PaginaVueloUI extends PageObject {
             Target.the("SELECCIONAR DESTINO")
                     .locatedBy(
                             "//body/div[3]/div[1]/div[2]/div[1]/div[4]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/section[1]/div[3]/div[4]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/fieldset[1]/div[1]/div[2]/div[2]/div[2]/ul[1]/li[1]");
+    public static final Target SELECT_FECHA_SAL =
+            Target.the("SELECCIONAR FECHA DE SALIDA").locatedBy("//body/div[3]/div[1]/div[2]/div[1]/div[4]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/section[1]/div[3]/div[4]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[2]/fieldset[1]/div[1]/div[1]/div[1]/label[1]");
+    public static final Target FECHA_SALIDA =
+            Target.the("FECHA DE SALIDA").locatedBy("//body/div[3]/div[1]/div[2]/div[1]/div[4]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/section[1]/div[3]/div[4]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[2]/fieldset[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[3]/div[29]");
+    public static final Target FECHA_LLEGADA =
+            Target.the("SELECCIONAR FECHA DE SALIDA").locatedBy("//body/div[3]/div[1]/div[2]/div[1]/div[4]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/section[1]/div[3]/div[4]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[2]/fieldset[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[3]/div[33]");
+
 }

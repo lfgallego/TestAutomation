@@ -24,7 +24,10 @@ public class ReservarVuelo implements Task {
                 utilDesde(),
                 Click.on(SELECT_DESDE),
                 Click.on(DESTINO),
-                utilDestino()
+                utilDestino(),
+                Click.on(SELECT_DESTINO),
+                Click.on(SELECT_FECHA_SAL),
+                Click.on(FECHA_SALIDA)
         );
 
     }
