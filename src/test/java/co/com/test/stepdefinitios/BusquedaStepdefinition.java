@@ -3,6 +3,7 @@ package co.com.test.stepdefinitios;
 
 import co.com.test.task.BuscarPagina;
 import co.com.test.task.Opensite;
+import co.com.test.task.ReservarVuelo;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -30,7 +31,7 @@ public class BusquedaStepdefinition {
 
     @When("The user books a flight")
     public void theUserBooksAFlight() {
-
+theActorInTheSpotlight().attemptsTo(ReservarVuelo.reservarVuelo());
     }
 
     @Then("Flight reservation is confirmed")
