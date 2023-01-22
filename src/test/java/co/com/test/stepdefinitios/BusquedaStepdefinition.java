@@ -31,7 +31,7 @@ public class BusquedaStepdefinition {
 
     @When("The user books a flight")
     public void theUserBooksAFlight() {
-theActorInTheSpotlight().attemptsTo(ReservarVuelo.reservarVuelo());
+        theActorInTheSpotlight().attemptsTo(ReservarVuelo.reservarVuelo());
     }
 
     @Then("Flight reservation is confirmed")
